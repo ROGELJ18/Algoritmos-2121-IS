@@ -1,0 +1,40 @@
+<script>
+    var total = 0;
+    var n1;
+    var n2;
+    var operacion = prompt("Operacion: ");
+    n1 = parseInt(prompt("Ingrese el primer numero"));
+    n2 = parseInt(prompt("Ingrese el segundo numero"));
+    switch(operacion){
+       case "Suma":
+           sumarDosNumeros(n1,n2);
+       break;
+       case "Resta":
+           restarDosNumeros(n1,n2);
+       break;
+       case "Multiplicacion":
+           multiplicarDosNumeros(n1,n2);
+       break;
+       case "Division":
+           dividirDosNumeros(n1,n2);
+       break;    
+       default:
+           alert("Operacion no valida");
+       break;        
+    }
+    console.log(total);
+    
+    function sumarDosNumeros(n1,n2){
+        total = n1 + n2;
+    } 
+    function restarDosNumeros(n1,n2){
+        total = n1 - n2;
+    }
+    function multiplicarDosNumeros(n1,n2){
+        total = n1 * n2;
+    }
+    function dividirDosNumeros(n1,n2){
+        total = n1 / n2;
+    }
+
+</script>

@@ -1,0 +1,24 @@
+<script>
+    var palabra = prompt("Ingresa una palabra");
+    
+    var filtrarLasMayusculas = filtrarMayusculas(palabra);
+
+    function filtrarLasMayusculas (palabras){
+       let nuevaPalabra = "";
+       let mayucusculas = [A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, X, Y, Z];
+       let minisculas = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, x, y, z];
+       
+       for (var i = 0; i < palabras.length; i++)
+       {
+           for(let j = 0; j < minisculas.length; j++);
+           {
+               if (palabras[i] == minisculas[j])
+               {
+                   nuevoPalabra += mayucusculas[j];
+               }   
+           }
+       }      
+       
+    }
+    
+</script>

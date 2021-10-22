@@ -1,0 +1,51 @@
+<script>
+    var letrasANumeros = prompt ("Ingresa tu numero en letras: ");
+    var unidades = ["1","2","3","4","5","6","7","8","9","0"];
+    var continuos = ["11", "12", "13", "14", "15"]
+    var decenas = ["10", "20", "30", "40", "50", "60", "70","80","90"];
+    var centenas = ["100", "200", "300", "400", "500", "600", "700", "800", "900"];
+    var millares = ["1000", "2000", "3000", "4000", "5000", "6000", "7000", "8000", "9000"];
+    
+    switch (letrasANumeros){  
+    case (letrasANumeros = "cero"):
+         console.log(unidades[9])    
+    break; 
+    case (letrasANumeros = "uno"):
+         console.log(unidades[0])    
+    break;    
+    case (letrasANumeros = "dos"):
+        console.log(unidades[1])
+    break;
+    case (letrasANumeros = "tres"):
+        console.log(unidades[2])
+    break;
+    case (letrasANumeros = "cuatro"):
+         console.log(unidades[3])    
+    break;    
+    case (letrasANumeros = "cinco"):
+        console.log(unidades[4])
+    break;
+    case (letrasANumeros = "seis"):
+         console.log(unidades[5])    
+    break;    
+    case (letrasANumeros = "siete"):
+        console.log(unidades[6])
+    break;
+    case (letrasANumeros = "ocho"):    
+        console.log(unidades[7])
+    break;    
+    case (letrasANumeros = "nueve"):
+        console.log(unidades[8])
+    break;
+    case (letrasANumeros = "diez"):
+        console.log(decenas[0])
+    break;
+    case (letrasANumeros = "veintidos"):
+        console.log(decenas[1]+unidades[1])
+    break;
+    default:
+    console.log("ERROR");
+}
+
+
+</script>
